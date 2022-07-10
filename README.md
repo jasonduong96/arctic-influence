@@ -7,3 +7,5 @@ The R-Value of Seattle, Washington is -0.4 for the month of Janurary. This means
 By understanding climate patterns and the role these fronts play on the U.S as a whole, we will be able to better predict the long-term forecast in coming years and know which U.S regions will be more affected by certain climatic events than others.
 
 Temperature data used in this project was from 1995-2020 from Kaggle.
+
+ON July 10th 2022, an updated version of the project was uploaded. The updates resulted in a more accurate animation that described temperature variation relationships between Columbus and other cities. The biggest change made was adding a function near the beginning that checked the entire dataframe worth of all the temperature data for invalid data (in this case, we searched for in the average temperature column for values of -99.0, as they obivously should not be there). This is really a basic step that should been done a lot earlier, it is just simple data cleaning. Anytime when you start working with a huge dataset, the first thing that should be done is to briefly go over the dataset and make sure the data looks good and/or that there is no missing data. 
