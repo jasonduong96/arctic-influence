@@ -9,3 +9,5 @@ By understanding climate patterns and the role these fronts play on the U.S as a
 Temperature data used in this project was from 1995-2020 from Kaggle.
 
 ON July 10th 2022, an updated version of the project was uploaded. The updates resulted in a more accurate animation that described temperature variation relationships between Columbus and other cities. The biggest change made was adding a function near the beginning that checked the entire dataframe worth of all the temperature data for invalid data (in this case, we searched for in the average temperature column for values of -99.0, as they obivously should not be there). This is really a basic step that should been done a lot earlier, it is just simple data cleaning. Anytime when you start working with a huge dataset, the first thing that should be done is to briefly go over the dataset and make sure the data looks good and/or that there is no missing data. 
+
+Unfortunately, the city_temperatures.csv file could not be uploaded here due to its vast size of over 137,000 KB.
